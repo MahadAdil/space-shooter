@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+#game-canvas {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 100%;
+}
